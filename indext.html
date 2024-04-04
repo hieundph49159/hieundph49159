@@ -1,0 +1,194 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <div class="img">
+                <img id="banner1" src="lg.png" alt="">
+            </div>
+            <div id="pc">
+                <li>
+                    <a href="indext.html">Trang Chủ</a>
+                </li>
+                <li>
+                    <a href="#">Tin Tức</a>
+                    <div>
+                        <a href="ls.html">Lịch Sử</a>
+                        <a href="gioithieu.html">Giới Thiệu</a>
+                    </div>
+                </li>
+
+            </div>
+            <div class="search">
+                <input type="text" placeholder="          ">
+                <img width="50" height="50" src="tim.png" alt="" >
+            </div>
+            <div class="menu">
+                <button id="button">
+                    <img width="30" height="30" src="tab.png" alt="" >
+                </button>
+                <button id="button1">
+                    <img width="30" height="30" src="x.png" alt="">
+                </button>
+            </div>
+        </nav>
+        <div id="menu1" style="display: none">
+            <li>
+                <a href="indext.html">Trang Chủ</a>
+            </li>
+            <li>
+                <a href="#">Tin Tức</a>
+                <div>
+                    <a href="ls.html">Lịch Sử</a>
+                    <a href="gioithieu.html">Giới Thiệu</a>
+                </div>
+            </li>
+            <div style="height: 1000px;width: 100%;background-color: whitesmoke;">
+            </div>
+        </div>
+
+        <header style="border: 1 solid red;margin-bottom: 0px;">
+            <img id="banner1" src="h1.png" alt="" style="width: 100%;">
+            <img id="banner2" src="h2.png" alt="" style="width: 100%;">
+            
+
+
+        </header>
+        <article>
+            <div class="text">
+                <h1>Tin Tức Nổi Bật</h1>
+                <br>
+            </div>
+            <div class="tintuc" id="mobile">
+                <div class="new">
+                    <a href="#">
+                        <div class="new1" id="new1">
+                            <div>
+                            </div>
+                            <h1>
+                                Lễ Hội Phủ Dày Nam Định
+                            </h1>
+                            <p>
+                                03/03/2024
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="new1" id="new2">
+                            <div>
+                            </div>
+                            <h1>
+                                Khai mạc 
+                            </h1>
+                            <p>
+                                24/04/2023
+                            </p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="new">
+                    <a href="#">
+                        <div class="new1" id="new3">
+                            <div>
+                            </div>
+                            <h1>
+                                Lễ Hội Phủ Dầy Nam Định
+                            </h1>
+                            <p>
+                                03/03/2024
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" id="mobile">
+                        <div class="new1" id="new4">
+                            <div>
+                            </div>
+                            <h1>
+                                Lễ Hội Phủ Dầy sau 3 năm 
+                            </h1>
+                            <p>
+                                03/03/2024
+                            </p>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tintuc" id="pc">
+                <div class="new">
+                    <a href="#">
+                        <div class="new1" id="new1">
+                            <div>
+                            </div>
+                            <h1>
+                                Lễ Hội Phủ Dày Nam Định
+                            </h1>
+                            <p>
+                                03/03/2024
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="new1" id="new2">
+                            <div>
+                            </div>
+                            <h1>
+                                Khai mạc 
+                            </h1>
+                            <p>
+                                24/04/2023
+                            </p>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <footer>
+            <img src="lg.png" alt="">
+            <div>
+                <h1>Phủ Dầy</h1>
+                
+            </div>
+        </footer>
+    </div>
+    <script>
+        const button = document.getElementById("button");
+        button.addEventListener("click", () => {
+            const div = document.querySelector("#button");
+            div.style.display = "none";
+        })
+        button.addEventListener("click", () => {
+            const div = document.querySelector("#button1");
+            div.style.display = "block";
+        })
+        button.addEventListener("click", () => {
+            const div = document.querySelector("#menu1");
+            div.style.display = "block";
+        })
+        const button1 = document.getElementById("button1")
+        button1.addEventListener("click", () => {
+            const div = document.querySelector("#button1");
+            div.style.display = "none";
+        })
+        button1.addEventListener("click", () => {
+            const div = document.querySelector("#menu1");
+            div.style.display = "none";
+        })
+        button1.addEventListener("click", () => {
+            const div = document.querySelector("#button");
+            div.style.display = "block";
+        })
+    </script>
+</body>
+
+</html>

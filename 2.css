@@ -1,0 +1,118 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .kientruc{
+        width: 100%;
+        /* border: 1px solid red; */
+        justify-content: left;
+    }
+    .kientruc{
+        height: auto;
+    }
+    .kientruc a{
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .kientruc a p{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 33px;
+        font-weight: 700;
+        
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .kientruc{
+        /* width: 100%; */
+        /* border: 1px solid red; */
+        justify-content: left;
+        height: auto;
+    }
+    .kientruc{
+        height: auto;
+        display: grid;
+        grid-template-columns: 270px 270px;
+        grid-template-rows: 270px 270px 270px;
+        justify-content: space-between;
+        text-align: center
+        /* grid-area: 300px; */
+    }
+    .kientruc a{
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* margin-right: 10px; */
+        /* margin-left: 20px; */
+        
+    }
+    .kientruc a p{
+        /* width: 300px;
+        height: 300px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 33px;
+        font-weight: 700;
+        
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .kientruc{
+        height: auto;
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: 350px 350px 350px;
+        /* justify-content: space-between; */
+        /* grid-area: 300px; */
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .kientruc{
+        height: auto;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 300px 300px 300px;
+        justify-content: space-between;
+        text-align: center
+        /* grid-area: 300px; */
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .kientruc{
+        height: auto;
+        display: grid;
+        grid-template-columns: 370px 370px 370px;
+        grid-template-rows: 370px 370px;
+        justify-content: space-between;
+        text-align: center
+        /* grid-area: 300px; */
+    }
+}
